@@ -578,6 +578,10 @@ video {
   display: none;
 }
 
+.h-\[530px\]{
+  height: 530px;
+}
+
 .max-w-screen-2xl{
   max-width: 1536px;
 }
@@ -742,6 +746,11 @@ video {
   }
 }
 
+.ct-top-menu-item-active:hover{
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
 .ct-icon{
   display: inline-block;
   height: 1.25rem;
@@ -758,9 +767,9 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
+  .sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
