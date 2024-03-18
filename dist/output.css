@@ -576,6 +576,14 @@ video {
   top: 0.75rem;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
+.left-\[calc\(-50vw_\+_50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
@@ -656,6 +664,10 @@ video {
   height: 280px;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -670,6 +682,14 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[1000px\]{
+  height: 1000px;
+}
+
+.h-\[390px\]{
+  height: 390px;
 }
 
 .w-11\/12{
@@ -691,6 +711,10 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -760,6 +784,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .gap-5{
@@ -841,12 +869,20 @@ video {
   background-image: url('./img/more-09.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\]{
+  background-image: url('./img/parallax.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/slider-bg\.jpeg\'\)\]{
   background-image: url('./img/slider-bg.jpeg');
 }
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -1212,6 +1248,20 @@ video {
   animation: fadeIn .5s ease-in-out;
 }
 
+@media (min-width: 480px){
+  .xs\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .xs\:h-\[200px\]{
+    height: 200px;
+  }
+
+  .xs\:gap-5{
+    gap: 1.25rem;
+  }
+}
+
 @media (min-width: 640px){
   .sm\:h-\[540px\]{
     height: 540px;
@@ -1235,6 +1285,10 @@ video {
 
   .md\:flex{
     display: flex;
+  }
+
+  .md\:h-\[130px\]{
+    height: 130px;
   }
 
   .md\:grid-cols-2{
